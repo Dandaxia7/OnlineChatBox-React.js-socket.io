@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(74, 96, 137);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.lightContent {
+  color: rgb(40, 52, 179);
+  cursor: pointer;
+  max-width: 90px;
+}
+.lightContent:hover {
+  color: rgb(255, 255, 255)
+}
+
+.chatbox-btn {
+  background-color: rgb(69, 162, 237);
+  position: fixed;
+  right: 4.5rem;
+  bottom: 3rem;
+  border-radius: 10%;
+}
+
+.chatbox .list-group {
+  overflow: scroll;
+  max-height: 20rem;
+  margin-bottom: 1rem;
+}
+
+.admin .list-group {
+  overflow: scroll;
+  height: 68vh;
+  margin-bottom: 1rem;
+}
